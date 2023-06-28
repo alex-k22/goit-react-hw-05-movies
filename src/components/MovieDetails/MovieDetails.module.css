@@ -1,0 +1,54 @@
+.article {
+    display: flex;
+    margin-top: 20px;
+}
+.add {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 3px;
+    transition: color 200ms linear;
+
+    &:hover {
+        color: red;
+    }
+
+}
+.list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    margin-top: 20px;
+
+}
+.item {
+    padding-bottom: 5px;
+}
+.wrapper {
+    margin-top: 20px;
+}
+.profile {
+    margin-left: 10px;
+    width: 100%
+}
+.subheader {
+    margin-top: 10px;
+}
+.back {
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 5px;
+    margin-bottom: 20px;
+    transition: border 200ms linear;
+
+    &:hover {
+        border: 2px solid red;
+    }
+}

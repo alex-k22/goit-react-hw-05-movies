@@ -1,0 +1,36 @@
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 20px 40px;
+}
+.nav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightblue;
+  border-bottom: 1px solid grey;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+}
+.link {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+
+  &:hover,
+  :focus {
+    color: red;
+  }
+}
+.active {
+  composes: link;
+  color: red;
+ }
